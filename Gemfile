@@ -44,6 +44,7 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
+  # Use sqlite3 as the database for Active Record
   gem "sqlite3"
 end
 
